@@ -2,3 +2,68 @@
     margin: 0;
     padding: 0;
 }
+.global-nav {
+    display: flex;
+    z-index: 200px;
+}
+.header-logo {
+    margin-right: 10px;
+    margin-left: 35px;
+    width: 60px;
+    height: 60px;
+}
+.header-menu {
+    display: flex;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 340px;
+    list-style-type: none;
+    padding-top: 18px;
+}
+.header-menu li {
+    margin-right: 15px;
+}
+.header-menu li:hover {
+    color: blue;
+    border-bottom: 2px solid blue;
+}
+.header-img {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+}
+.header-img img {
+    margin-left: 35px;
+}
+.list-nav {
+    display: flex;
+    margin-left: 78px;
+    list-style-type:none ;
+}
+.list-nav li {
+    color: gray;
+    font-size: 11.5px;
+}
+.list-nav a {
+    text-decoration: none;
+}
+.list-nav a:visited {
+    color: gray;
+}
+.list-nav li::after {
+    content: " >";
+}
+.list-nav li:last-child::after {
+    content: none;
+}
+.bunner {
+    max-width: 100%;
+    height: 250px;
+    margin: 20px 0 20px 0;
+}
+.bunner-img img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
