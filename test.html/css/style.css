@@ -245,6 +245,9 @@
     height: 50px;
     padding: 27px 0;
 }
+.item p {
+    padding: 0 5px 0 5px;
+}
 .item-link {
     display: flex;
     justify-content: center;
@@ -286,6 +289,7 @@
     border-top:1px dotted grey ;
     padding-top: 15px;
     margin-bottom: 20px;
+    font-weight: bold;
 }
 .info-link {
     width: 25%;
@@ -322,4 +326,24 @@
 }
 .backpage a::before {
     background:url() ;
+}
+/*------------------*/
+.nav-list {
+    text-align: center;
+    padding: 30px 0;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+}
+
+.nav-list li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 30px;
+    
+}
+.img-nav-list {
+    width: 28px;
+    height: 28px;
 }
