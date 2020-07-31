@@ -220,10 +220,11 @@
 .middle-menu {
     width: 780px;
     height: 220px;
-    background-color:#D9E5FF;
-    padding: 10px;
+    background-color:#DEECF8;
+    padding: 15px;
     margin-top: 40px;
-    margin-left: 330px;
+    margin-left: 300px;
+    margin-bottom: 30px;
 }
 .middle-menu-nav {
     width: 100%;
@@ -233,7 +234,7 @@
 .item {
     width: 33.3%;
     height: 50px;
-    padding:27px 0;
+    padding: 27px 0;
 }
 .item-link {
     display: flex;
@@ -245,6 +246,9 @@
     background-color: white;
     text-decoration: none;
     border: 1px solid gray;
+}
+.item-link:hover {
+    opacity:0.8;
 }
 .item-link::before {
     content: ">";
