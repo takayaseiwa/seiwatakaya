@@ -4,8 +4,12 @@
 }
 .global-nav {
     display: flex;
-    position: fixed;
+    height: 60px;
+    width: 100%;
     background-color: white;
+    position: fixed;
+    z-index: 1000;
+
 }
 .header-logo {
     margin-right: 10px;
@@ -15,6 +19,7 @@
 }
 .header-menu {
     display: flex;
+    flex-wrap: wrap;
     font-size: 13px;
     font-weight: bold;
     margin-left: 340px;
@@ -126,8 +131,8 @@
 
 .nav-icon li {
     list-style-type: none;
-    font-size: 15px;
-    font-weight: bold;
+    font-size: 12px;
+    font-weight: lighter;
     margin-left: 30px;
     
 }
@@ -210,4 +215,38 @@
 
 .left-text a:hover{
     border-bottom: 1px solid blue;
+}
+/*-------------------*/
+.middle-menu {
+    width: 780px;
+    height: 220px;
+    background-color:#D9E5FF;
+    padding: 10px;
+    margin-top: 40px;
+    margin-left: 330px;
+}
+.middle-menu-nav {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.item {
+    width: 33.3%;
+    height: 50px;
+    padding:27px 0;
+}
+.item-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 100%;
+    color: blue;
+    background-color: white;
+    text-decoration: none;
+    border: 1px solid gray;
+}
+.item-link::before {
+    content: ">";
+    float: left;
 }
