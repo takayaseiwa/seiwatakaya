@@ -148,6 +148,15 @@
     font-size: 22px;
     margin-bottom: 10px;
 }
+.container h2::before {
+    content: "";
+    background: url(../img/unnamed.jpg);
+    display: inline-block;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
 .container p {
     font-size: 16px;
 }
@@ -253,4 +262,64 @@
 .item-link::before {
     content: ">";
     float: left;
+}
+/*------------------*/
+.company-info {
+    width: 950px;
+    margin-left: 250px;
+    margin-top: 60px;
+}
+.info-title h3 {
+    border-top: 2px solid black;
+    margin-bottom:20px;
+    padding-top: 20px;
+}
+.info-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.info-head {
+    width: 100%;
+}
+.info-head p {
+    border-top:1px dotted grey ;
+    padding-top: 15px;
+    margin-bottom: 20px;
+}
+.info-link {
+    width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.info-link ul {
+    list-style-type: none;
+}
+.info-link li {
+    padding-top: 15px;
+}
+.info-link li a {
+    text-decoration: none;
+    color: #0033cc;
+}
+.info-link li a::before {
+    content:"";
+    background:url(../img/right_icon-icons.com_61212.svg) no-repeat;
+    background-size: contain;
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    margin-right: 10px;
+}
+.backpage p {
+    width: 950px;
+    border-top: dotted 1px grey;
+    padding-top: 40px;
+}
+.backpage a {
+    text-decoration: none;
+    color: #0033CC;
+}
+.backpage a::before {
+    background:url() ;
 }
