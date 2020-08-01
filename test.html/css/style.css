@@ -352,22 +352,26 @@
 }
 /*-----------------------*/
 .footer-nav {
-    max-width: 1800px;
+    border-bottom: 1px solid grey;
 }
 .footer-list-one {
     display: flex;
     margin-left: 85px;
     margin-top: 45px;
+    margin-bottom: 60px;
 }
 .footer-list-menu {
     width: 100%;
 }
 .footer-list-menu a {
     text-decoration: none;
+    color: black;
 }
 .footer-list-menu p {
     margin-top: 5px;
-    color: black;
+}
+.footer-list-menu a:hover {
+    text-decoration: underline;
 }
 .footer-list-menu a::before {
     content:"";
@@ -380,6 +384,7 @@
 }
 .footer-list-head {
     font-weight: bold;
+    margin-bottom: 15px;
 }
 .footer-list-small {
     width: 25%;
