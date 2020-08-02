@@ -9,7 +9,9 @@
     background-color: white;
     position: fixed;
     z-index: 1000;
-
+}
+.global-nav-link {
+    text-decoration: none;
 }
 .header-logo {
     margin-right: 10px;
@@ -34,11 +36,19 @@
     border-bottom: 2px solid blue;
     cursor: pointer;
 }
+.header-menu a {
+    text-decoration: none;
+    color:black ;
+}
 .header-img {
     display: flex;
     max-width: 100%;
     height: auto;
     align-items: center;
+}
+.header-img img:hover {
+    cursor: pointer;
+    opacity: 0.5;
 }
 .header-img img {
     margin-left: 35px;
@@ -73,6 +83,7 @@
 .humberger:hover {
     color:white;
     cursor: pointer;
+    opacity: 0.5;
 }
 .list-nav {
     display: flex;
