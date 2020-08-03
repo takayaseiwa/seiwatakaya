@@ -202,10 +202,14 @@
 .next-button a {
     text-decoration: none;
     color:white;
+    position: relative;
 }
 .next-button a::before {
     content: ">";
     color: white;
+    display: block;
+    position: absolute;
+    left: -13px;
 }
 .next-button:hover {
     opacity: .6;
