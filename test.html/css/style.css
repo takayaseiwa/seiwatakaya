@@ -190,18 +190,18 @@
 }
 .next-button {
     text-align: center;
+    margin-top: 20px;
     margin-bottom: 50px;
-}
-.next-button button {
+    margin-left: 570px;
     background-color:#005bac;
     border: none;
+    padding-top: 10px;
     height: 70px;
-    width: 250px;
-    margin-top: 20px;
+    width: 300px;
 }
 .next-button a {
     text-decoration: none;
-    color: white;
+    color:white;
 }
 .next-button a::before {
     content: ">";
@@ -211,8 +211,8 @@
     opacity: .6;
 }
 .pdf-icon {
-    width: 18px;
-    margin-left: 15px;
+    width: 20px;
+    height: 20px;
 }
 .text {
     display: flex;
