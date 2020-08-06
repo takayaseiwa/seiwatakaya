@@ -105,7 +105,7 @@
 
 .list-nav {
     display: flex;
-    margin-left: 78px;
+    margin-left: 65px;
     list-style-type: none;
     padding-top: 60px;
 }
@@ -286,16 +286,16 @@ p {
 
 .right-text a,
 .left-text a {
-    color: blue;
+    color: #0c5c9a;
     text-decoration: none;
 }
 
 .right-text a:hover {
-    border-bottom: 1px solid blue;
+    border-bottom: 1px solid #0c5c9a;
 }
 
 .left-text a:hover {
-    border-bottom: 1px solid blue;
+    border-bottom: 1px solid #0c5c9a;
 }
 
 /*-------------------*/
@@ -345,6 +345,7 @@ p {
 .item-link::before {
     content: ">";
     display: block;
+    color: grey;
     position: absolute;
     left: 10px;
 }
