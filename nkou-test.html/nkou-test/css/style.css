@@ -65,3 +65,36 @@
     vertical-align: bottom;
     margin-right: 3px;
 }
+/*------------------------*/
+.second-header {
+    padding-top: 25px;
+}
+.header-logo {
+    margin-left: 198px;
+    margin-right: 435px;
+}
+.header-logo img {
+    width: 220px;
+    height: 50px;
+}
+.second-header , .header-tel , .link-icon {
+    display: flex;
+}
+.tel {
+    margin-right: 30px;
+}
+.tel p {
+    font-weight: lighter;
+    font-size: 7px;
+    text-align: center;
+}
+.link-icon {
+    list-style-type: none;
+    padding-top: 5px;
+}
+.link-icon li {
+    margin-right: 5px;
+}
+.link-icon a:hover {
+    opacity: 0.8;
+}
