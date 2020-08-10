@@ -10,7 +10,7 @@
 .top-header-text {
     font-size: 10px;
     float: left;
-    padding-top: 5px;
+    padding-top: 9px;
     margin-left: 200px;
 }
 .top-header ul {
@@ -20,7 +20,7 @@
     padding-bottom: 10px;
 }
 .top-header li {
-    font-size: 10px;
+    font-size: 12px;
 }
 .top-header a {
     text-decoration: none;
@@ -30,12 +30,38 @@
     text-decoration: underline;
 }
 .top-header-side-menu {
-    margin-right: 350px;
+    margin-right: 270px;
     padding-top: 5px;
 }
 .top-header-side-menu li {
     color: grey;
+    font-size: 10px;
+    letter-spacing: 1px;
 }
 .top-header-side-menu li::after {
     content: "|";
+    margin: 0 3px 0 3px;
+}
+.top-header-side-menu li:nth-child(6)::after {
+    content: none;
+}
+.top-header-side-menu li:last-child {
+    margin-left: 5px;
+    background-color:#d9d9d9;
+}
+.top-header-side-menu li:last-child a {
+    color: blue;
+}
+.top-header-side-menu li:last-child::after {
+    content: none;
+}
+.top-header-side-menu li:last-child::before  {
+    content: "";
+    display: inline-block;
+    background-image: url("../img/unnamed-_1_\ .png");
+    background-color: #d9d9d9;
+    width: 15px;
+    height: 15px;
+    vertical-align: bottom;
+    margin-right: 3px;
 }
