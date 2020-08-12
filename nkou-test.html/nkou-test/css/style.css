@@ -101,6 +101,8 @@
 /*------------------*/
 .hide-header {
     display: flex;
+    position: fixed;
+    display: none;
 }
 .hide-header-logo {
     margin-left: 198px;
@@ -134,6 +136,10 @@
 .hide-link-icon img {
     width:150px;
     height:25px;
+    padding-top: 10px;
+}
+.hide-link-icon li:nth-child(2) {
+    padding-top: 10px;
 }
 .hide-link-icon li:nth-child(3) {
     border: 1px solid #000066;
@@ -173,5 +179,91 @@
     color: white;
     background-color: #000066;
 }
-
-
+/*------------------------------*/
+.third-header {
+    display: flex;
+    padding-top: 15px;
+}
+.third-menu {
+    margin-left: 200px;
+}
+.third-menu ul{
+    display: flex;
+    list-style-type: none;
+}
+.third-menu li {
+    border-left: 1px solid grey;
+    padding-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+}
+.third-menu li:last-child {
+    border-right: 1px solid grey;
+    padding-right: 30px;
+}
+.third-menu li:hover {
+    color: #000066;
+    cursor: pointer;
+}
+.third-menu p {
+    font-size: 5px;
+}
+.third-link-icon {
+    display: flex;
+    list-style-type: none;
+}
+.third-link-icon li {
+    font-size: 7px;
+    font-weight: lighter;
+    margin-right: 15px;
+    white-space: nowrap;
+}
+.third-link-icon  a {
+    text-decoration: none;
+    color: #000066;
+}
+.third-link-icon a:hover {
+    color: white;
+    background-color: #000066;
+}
+.third-link-icon li:nth-child(1) {
+    border: 1px solid #000066;
+    width: 145px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.third-link-icon li:nth-child(1)::after {
+    content:">";
+    color: #000066;
+    float: right;
+    padding-right: 5px;
+}
+.third-link-icon li:nth-child(1):hover {
+    color: white;
+    background-color: #000066;
+}
+.third-link-icon li:nth-child(2) {
+    border: 1px solid #000066;
+    width: 145px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.third-link-icon li:nth-child(2)::after {
+    content:">";
+    color: #000066;
+    float: right;
+    padding-right: 5px;
+}
+.third-link-icon li:nth-child(2):hover {
+    color: white;
+    background-color: #000066;
+}
+.third-menu-2 {
+    margin-left: 20px;
+}
