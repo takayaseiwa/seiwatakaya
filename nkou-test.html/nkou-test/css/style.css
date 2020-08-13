@@ -301,3 +301,27 @@
     background-color: white;
     color: #000066;
 }
+/*-------------------------*/
+.bunner-text {
+    position: relative;
+}
+.bunner-text h1 {
+    color: white;
+    font-size: 70px;
+    font-weight: lighter;
+    letter-spacing: 10px;
+    position: absolute;
+    top: 9%;
+    left: 35%;
+}
+.bunner-text p {
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 46%;
+}
+.bunner-text img {
+    object-fit: cover;
+    height: 550px;
+    width: 100%;
+}
