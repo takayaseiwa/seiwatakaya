@@ -267,3 +267,37 @@
 .third-menu-2 {
     margin-left: 20px;
 }
+/*------------------*/
+.nav {
+    background-color: #000066;
+    height: 100px;
+    margin-top: 15px;
+    padding-top: 15px;
+}
+.nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 200px;
+    width: 990px;
+}
+.nav li {
+    list-style-type: none;
+    padding-top: 8px;
+    margin:0 0 10px 10px;
+}
+.nav li::before {
+    content:"＼";
+    margin-right: 8px;
+}
+.nav li:first-child::before {
+    content: none;
+}
+.nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+.nav a:hover {
+    background-color: white;
+    color: #000066;
+}
