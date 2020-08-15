@@ -4,7 +4,7 @@
 }
 .top-header {
     width: 100%;
-    height: 30px;
+    height: 37px;
     background-color: whitesmoke;
 }
 .top-header-text {
@@ -17,10 +17,10 @@
     display: flex;
     list-style-type: none;
     float:right;
-    padding-bottom: 10px;
 }
 .top-header li {
     font-size: 12px;
+    padding-top: 8px;
 }
 .top-header a {
     text-decoration: none;
@@ -30,13 +30,13 @@
     text-decoration: underline;
 }
 .top-header-side-menu {
-    margin-right: 270px;
-    padding-top: 5px;
+    margin-right: 230px;
 }
 .top-header-side-menu li {
     color: grey;
     font-size: 10px;
     letter-spacing: 1px;
+    height: 30px;
 }
 .top-header-side-menu li::after {
     content: "|";
@@ -45,26 +45,25 @@
 .top-header-side-menu li:nth-child(6)::after {
     content: none;
 }
-.top-header-side-menu li:last-child {
-    margin-left: 5px;
-    background-color:#d9d9d9;
+.top-header-side-menu li:last-child  {
+    background-color: grey;
+    margin-bottom: 10px;
 }
 .top-header-side-menu li:last-child a {
-    color: blue;
+    color:#000066 ;
 }
-.top-header-side-menu li:last-child::after {
-    content: none;
+.top-header-side-menu li:last-child a:hover {
+    text-decoration: underline;
 }
-.top-header-side-menu li:last-child::before  {
-    content: "";
+.top-header-side-menu li:last-child a p {
     display: inline-block;
-    background-image: url("../img/unnamed-_1_\ .png");
-    background-color: #d9d9d9;
+    background: url(../img/unnamed-_1_\ .png) no-repeat;
     width: 15px;
-    height: 15px;
-    vertical-align: bottom;
+    height: 20px;
+    vertical-align: middle;
     margin-right: 3px;
 }
+
 /*------------------------*/
 .second-header {
     padding-top: 25px;
@@ -270,7 +269,7 @@
 /*------------------*/
 .nav {
     background-color: #000066;
-    height: 100px;
+    height: 96px;
     margin-top: 15px;
     padding-top: 15px;
 }
@@ -307,7 +306,7 @@
 }
 .bunner-text h1 {
     color: white;
-    font-size: 70px;
+    font-size: 60px;
     font-weight: lighter;
     letter-spacing: 10px;
     position: absolute;
@@ -324,4 +323,25 @@
     object-fit: cover;
     height: 550px;
     width: 100%;
+}
+
+/*--------------------*/
+.side-menu {
+    border-bottom: 1px solid grey;
+}
+.side-menu ul {
+    display: flex;
+    list-style-type: none;
+    padding: 20px 0 20px 160px;
+}
+.side-menu a {
+    color:#36538d;
+    text-decoration: none;
+}
+.side-menu a:hover {
+    text-decoration: underline;
+}
+.side-menu li:first-child::after {
+    content: ">";
+    margin: 0 3px 0 3px;
 }
