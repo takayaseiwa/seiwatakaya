@@ -412,11 +412,17 @@
 	border-bottom: 3px solid black;
 }
 /*------------------------------*/
+.contents-02 {
+    height: 300px;
+}
 .contents-triangle ul {
    float: left;
    font-size: 22px;
    margin-left: 210px;
    list-style-type: none;
+}
+.contents-triangle li {
+   padding-top: 20px;
 }
 .contents-triangle span {
     font-size: 28px;
@@ -427,7 +433,38 @@
     margin-right: 5px;
     padding-right: 15px;
 }
+.contents-triangle span:first-child {
+    margin-right: 10px;
+}
 .contents-triangle img {
     float: right;
 }
-
+/*----------------------*/
+.contents-03 {
+    width: 55%;
+    padding-top: 110px;
+    margin-left: 320px;
+    margin-bottom: 200px;
+}
+.standards {
+    display: block;
+    height: 330px;
+    border: 1px solid black;
+    background-color: #f7f7f7;
+    text-decoration: none;
+}
+.standards-logo {
+    display: table-cell;
+    vertical-align: top;
+}
+.standards-logo img {
+    padding:10px 0 0 35px;
+}
+.standards-text {
+    display: table-cell;
+    text-align: left;
+    vertical-align: top;
+    color: black;
+    width: 65%;
+    margin-right: 60px;
+}
