@@ -444,7 +444,7 @@
     width: 52%;
     padding-top: 110px;
     margin-left: 320px;
-    margin-bottom: 200px;
+    margin-bottom: 120px;
 }
 .standards {
     display: block;
@@ -487,4 +487,31 @@
 }
 .standards-text p {
     padding-bottom: 30px;
+}
+/*----------------------*/
+.contents-04,.contents-05 {
+    height: 600px;
+}
+#area3 h2 {
+	border-bottom: 1px solid black;
+}
+.n-text {
+    width: 33%;
+    float: left;
+    margin-left: 212px;
+}
+.n-text h3 {
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+    font-size: 25px;
+}
+.n-text p {
+    margin-top: 15px;
+}
+.n-text-02 {
+    font-size: 13px;
+}
+.one-day {
+    float:right;
+    width: 47%;
 }
