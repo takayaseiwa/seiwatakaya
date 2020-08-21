@@ -525,14 +525,14 @@
     background-color: #f7f7f7;
     padding: 80px 0 50px 0;
     border: 1px solid #f7f7f7;
-    height: 10000px;
+    height: 1300px;
 }
 .program-text {
     text-align: center;
 }
 .program-text h2 {
     position: relative;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: lighter;
 }
 .program-text h2:before {
@@ -547,7 +547,7 @@
     background-color:black;
 }
 .program-text p {
-    padding-top: 20px;
+    padding-top: 30px;
 }
 /*---------------------*/
 .contents-06 {
@@ -562,6 +562,10 @@
     float: right;
     width: 20%;
     margin-right: 190px;
+}
+.program-study h3 {
+    font-size: 23px;
+    font-weight: lighter;
 }
 .program-study a {
     display: block;
@@ -593,7 +597,7 @@
 .contents-07 {
     height: 580px;
 }
-.sea-img {
+.school-img {
     float: right;
     margin-right: 190px;
 }
@@ -606,6 +610,10 @@
     display: block;
     color: black;
     text-decoration: none;
+}
+.program-school h3 {
+    font-size: 23px;
+    font-weight: lighter;
 }
 .program-school a:hover {
     opacity: 0.5;
@@ -627,4 +635,10 @@
 }
 .program-school h3,.tag-02,.tag-03,.read-more {
     margin-top: 20px;
+}
+/*-------------------*/
+.advanced-program {
+    padding: 80px 0 50px 0;
+    border: 1px solid #f7f7f7;
+    height: 2050px;
 }
