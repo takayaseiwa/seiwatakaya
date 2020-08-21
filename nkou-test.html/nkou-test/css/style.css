@@ -271,18 +271,17 @@
     background-color: #000066;
     height: 96px;
     margin-top: 15px;
-    padding-top: 15px;
 }
 .nav ul {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 200px;
-    width: 990px;
+    margin-left: 180px;
+    width: 1075px;
 }
 .nav li {
     list-style-type: none;
     padding-top: 8px;
-    margin:0 0 10px 10px;
+    margin:0 0 0 10px;
 }
 .nav li::before {
     content:"＼";
@@ -295,6 +294,7 @@
     display: inline-block;
     text-decoration: none;
     color: white;
+    padding: 5px;
 }
 .nav a:hover {
     background-color: white;
@@ -479,8 +479,10 @@
     display: inline-block;
     width: 30px;
     height:30px;
+    background-position:left 10% bottom 5% ;
     background: url(../img/121_arr_hoso.png)no-repeat;
     background-size: contain;
+    padding-right: 10px;
 }
 .standards-text h3 {
     padding-bottom: 10px;
@@ -489,8 +491,11 @@
     padding-bottom: 30px;
 }
 /*----------------------*/
-.contents-04,.contents-05 {
+.contents-04 {
     height: 600px;
+}
+.contents-05 {
+    height: 475px;
 }
 #area3 h2 {
 	border-bottom: 1px solid black;
@@ -514,4 +519,112 @@
 .one-day {
     float:right;
     width: 47%;
+}
+/*---------------------*/
+.basic-program {
+    background-color: #f7f7f7;
+    padding: 80px 0 50px 0;
+    border: 1px solid #f7f7f7;
+    height: 10000px;
+}
+.program-text {
+    text-align: center;
+}
+.program-text h2 {
+    position: relative;
+    font-size: 40px;
+    font-weight: lighter;
+}
+.program-text h2:before {
+	content: '';
+	position: absolute;
+	bottom: -5px;
+	display: inline-block;
+	width: 20%;
+	height: 1px;
+	left: 50%;
+    transform: translateX(-50%);
+    background-color:black;
+}
+.program-text p {
+    padding-top: 20px;
+}
+/*---------------------*/
+.contents-06 {
+    margin-top: 50px;
+    height: 580px;
+}
+.study-img {
+    float: left;
+    margin-left: 190px;
+}
+.program-study {
+    float: right;
+    width: 20%;
+    margin-right: 190px;
+}
+.program-study a {
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+.program-study a:hover {
+    opacity: 0.5;
+}
+.basic {
+    display:inline-block;
+    background-color: black;
+    padding: 0px 8px;
+}
+.basic-img {
+    height: 13px;
+}
+.read-more img {
+    height: 20px;
+    width: 70px;
+}
+.tag-01 {
+    font-size: 12px;
+}
+.program-study h3,.tag,.tag-01,.read-more {
+    margin-top: 20px;
+}
+/*-----------------------------*/
+.contents-07 {
+    height: 580px;
+}
+.sea-img {
+    float: right;
+    margin-right: 190px;
+}
+.program-school {
+    float: left;
+    width: 20%;
+    margin-left: 190px;
+}
+.program-school a {
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+.program-school a:hover {
+    opacity: 0.5;
+}
+.select {
+    display:inline-block;
+    background-color: black;
+    padding: 0px 8px;
+}
+.select-img {
+    height: 13px;
+}
+.read-more img {
+    height: 20px;
+    width: 70px;
+}
+.tag-02 {
+    font-size: 12px;
+}
+.program-school h3,.tag-02,.tag-03,.read-more {
+    margin-top: 20px;
 }
