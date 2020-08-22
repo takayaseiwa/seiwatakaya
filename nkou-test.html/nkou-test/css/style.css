@@ -217,49 +217,41 @@
     margin-right: 15px;
     white-space: nowrap;
 }
-.third-link-icon  a {
+.third-link-icon  a{
+    display: block;
     text-decoration: none;
     color: #000066;
+    border: 1px solid #000066;
+    background: url(../img/121_arr_hoso.png) no-repeat;
+    background-size: 5px 10px;
+    width: 145px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
 }
 .third-link-icon a:hover {
     color: white;
     background-color: #000066;
 }
-.third-link-icon li:nth-child(1) {
-    border: 1px solid #000066;
-    width: 145px;
-    height: 30px;
-    text-align: center;
-    padding-top: 10px;
-    font-size: 15px;
-    font-weight: bold;
-}
-.third-link-icon li:nth-child(1)::after {
+/*.third-link-icon li a:nth-child(1)::after {
     content:">";
     color: #000066;
     float: right;
     padding-right: 5px;
-}
-.third-link-icon li:nth-child(1):hover {
+}*/
+.third-link-icon li a:nth-child(1):hover {
     color: white;
     background-color: #000066;
 }
-.third-link-icon li:nth-child(2) {
-    border: 1px solid #000066;
-    width: 145px;
-    height: 30px;
-    text-align: center;
-    padding-top: 10px;
-    font-size: 15px;
-    font-weight: bold;
-}
-.third-link-icon li:nth-child(2)::after {
+/*.third-link-icon li a:nth-child(2)::after {
     content:">";
     color: #000066;
     float: right;
     padding-right: 5px;
-}
-.third-link-icon li:nth-child(2):hover {
+}*/
+.third-link-icon li a:nth-child(2):hover {
     color: white;
     background-color: #000066;
 }
@@ -529,6 +521,8 @@
 }
 .program-text {
     text-align: center;
+    margin-bottom: 75px;
+
 }
 .program-text h2 {
     position: relative;
@@ -641,4 +635,49 @@
     padding: 80px 0 50px 0;
     border: 1px solid #f7f7f7;
     height: 2050px;
+}
+/*=--------------------*/
+.contents-08 {
+    padding-top: 50px;
+    height: 780px;
+    border: 1px solid #f7f7f7;
+    background-color: #f7f7f7;
+}
+.tool-text {
+    text-align: center;
+    margin-bottom: 75px;
+}
+.tool-text h2 {
+    position: relative;
+    font-size: 30px;
+    font-weight: lighter;
+}
+.tool-text h2:before {
+	content: '';
+	position: absolute;
+	bottom: -5px;
+	display: inline-block;
+	width: 20%;
+	height: 1px;
+	left: 50%;
+    transform: translateX(-50%);
+    background-color:black;
+}
+/*------------------------*/
+.contents-09 {
+    padding-top: 50px;
+    height: 780px;
+    border: 1px solid #f7f7f7;
+}
+/*-------------------------*/
+.basic-program-01 {
+    padding: 80px 0 50px 0;
+    border: 1px solid #f7f7f7;
+    height: 1300px;
+}
+.contents-10 p {
+    text-align: center;
+}
+.n-school-img a:hover {
+    opacity: 0.5;
 }
