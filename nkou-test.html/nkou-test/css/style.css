@@ -45,11 +45,16 @@
 .top-header-side-menu li:nth-child(6)::after {
     content: none;
 }
+.top-header-side-menu li:last-child::after {
+    content: none;
+}
 .top-header-side-menu li:last-child  {
-    background-color: grey;
+    background-color: none;
     margin-bottom: 10px;
 }
 .top-header-side-menu li:last-child a {
+    background: #d9d9d9;
+    padding: 12px 8px 13px 8px;
     color:#000066 ;
 }
 .top-header-side-menu li:last-child a:hover {
@@ -57,7 +62,8 @@
 }
 .top-header-side-menu li:last-child a p {
     display: inline-block;
-    background: url(../img/unnamed-_1_\ .png) no-repeat;
+    background: url(../img/icon_site_mark01.png) no-repeat;
+    background-size: 16px 20px;
     width: 15px;
     height: 20px;
     vertical-align: middle;
@@ -149,11 +155,11 @@
     font-size: 15px;
     font-weight: bold;
 }
-.hide-link-icon li:nth-child(3)::after {
-    content:">";
-    color: #000066;
-    float: right;
-    padding-right: 5px;
+.hide-link-icon li a:nth-child(3){
+    display: block;
+    padding: 9px 10px 8px;
+    background: url(../img/icon_arrow01_right_black01.png) 94% 50% no-repeat;
+    background-size: 5px 9px;
 }
 .hide-link-icon li:nth-child(3):hover {
     color: white;
@@ -222,7 +228,7 @@
     text-decoration: none;
     color: #000066;
     border: 1px solid #000066;
-    background: url(../img/121_arr_hoso.png) no-repeat;
+    background: url(../img/icon_arrow01_right_black01.png) 93% 50% no-repeat;
     background-size: 5px 10px;
     width: 145px;
     height: 30px;
@@ -232,6 +238,8 @@
     font-weight: bold;
 }
 .third-link-icon a:hover {
+    background: url(../img/icon_arrow01_right_white01.png) 93% 50% no-repeat;
+    background-size: 5px 10px;
     color: white;
     background-color: #000066;
 }
@@ -673,11 +681,37 @@
 .basic-program-01 {
     padding: 80px 0 50px 0;
     border: 1px solid #f7f7f7;
-    height: 1300px;
+    height: 1100px;
 }
 .contents-10 p {
     text-align: center;
 }
 .n-school-img a:hover {
     opacity: 0.5;
+}
+/*--------------------------*/
+.contents-11 {
+    height: 400px;
+    background-color: #f7f7f7;
+}
+.n-message {
+    width: 100%;
+    margin: auto;
+    padding: 60px 20px 0 60px;
+}
+.n-message li {
+    display: table;
+    float: left;
+    width: 47%;
+    height: 120px;
+    margin: 0 5.5% 30px 0;
+    padding: 6px;
+    background: url(../img/bg_diagonal01_black01.png) 0 0;
+}
+.n-message li a {
+    display: table-cell;
+    padding: 8px 42px 12px 26px;
+    background: url(../img/icon_arrow01_right_black01.png) no-repeat;
+    background-size:5px 9px;
+    vertical-align: middle;
 }
