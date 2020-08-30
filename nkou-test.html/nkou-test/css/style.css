@@ -129,7 +129,7 @@
     color: #000066;
 }
 .hide-link-icon a:hover {
-    color: white;
+    color: #ffffff;
     background-color: #000066;
 }
 .hide-link-icon li {
@@ -162,7 +162,7 @@
     background-size: 5px 9px;
 }
 .hide-link-icon li:nth-child(3):hover {
-    color: white;
+    color: #ffffff;
     background-color: #000066;
 }
 .hide-link-icon li:nth-child(4) {
@@ -181,7 +181,7 @@
     padding-right: 5px;
 }
 .hide-link-icon li:nth-child(4):hover {
-    color: white;
+    color: #ffffff;
     background-color: #000066;
 }
 /*------------------------------*/
@@ -240,7 +240,7 @@
 .third-link-icon a:hover {
     background: url(../img/icon_arrow01_right_white01.png) 93% 50% no-repeat;
     background-size: 5px 10px;
-    color: white;
+    color: #ffffff;
     background-color: #000066;
 }
 /*.third-link-icon li a:nth-child(1)::after {
@@ -250,7 +250,7 @@
     padding-right: 5px;
 }*/
 .third-link-icon li a:nth-child(1):hover {
-    color: white;
+    color: #ffffff;
     background-color: #000066;
 }
 /*.third-link-icon li a:nth-child(2)::after {
@@ -260,7 +260,7 @@
     padding-right: 5px;
 }*/
 .third-link-icon li a:nth-child(2):hover {
-    color: white;
+    color: #ffffff;
     background-color: #000066;
 }
 .third-menu-2 {
@@ -295,6 +295,7 @@
 .nav li::before {
     content:"＼";
     margin-right: 8px;
+    color: #ffffff;
 }
 .nav li:first-child::before {
     content: none;
@@ -302,11 +303,11 @@
 .nav a {
     display: inline-block;
     text-decoration: none;
-    color: white;
+    color: #ffffff;
     padding: 5px;
 }
 .nav a:hover {
-    background-color: white;
+    background-color: #ffffff;
     color: #000066;
 }
 /*-------------------------*/
@@ -314,7 +315,7 @@
     position: relative;
 }
 .bunner-text h1 {
-    color: white;
+    color: #ffffff;
     font-size: 60px;
     font-weight: lighter;
     letter-spacing: 10px;
@@ -498,6 +499,9 @@
 }
 .standards-text p {
     padding-bottom: 30px;
+}
+.contents-03 img:hover {
+    opacity: 0.5;
 }
 /*----------------------*/
 .contents-04 {
@@ -787,6 +791,9 @@
     text-decoration: none;
     color: #000;
 }
+.info-free a:hover {
+    opacity: 0.8;
+}
 .info-free li::after {
     content: "";
     position: absolute;
@@ -849,3 +856,90 @@
     margin-top: 15px;
     margin-left: 30px;
 }
+/*--------------------------*/
+.nkou-news {
+    display: flex;
+    width: 370px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 371px;
+}
+.news-link {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #000;
+    background: url(../img/icon_arrow01_right_black01.png) 93% 50% no-repeat;
+    background-size: 5px 10px;
+    width: 263px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 15px;
+}
+.news-link:hover {
+    background: url(../img/icon_arrow01_right_white01.png) 93% 50% no-repeat;
+    background-size: 5px 10px;
+    color: #ffffff;
+    background-color: #000;
+}
+.tag-two {
+    display: block;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+/*-----------------------*/
+.study-field {
+    width: 1010px;
+    height: 360px;
+    margin-left: 180px;
+    padding-top: 50px;
+}
+.tag-three {
+    text-align: center;
+    border-top: 1px solid #f7f7f7;
+    padding-top: 35px;
+    margin-bottom: 30px;
+}
+.school-labo ul {
+    display: flex;
+    justify-content: space-between;
+}
+.school-labo li {
+    list-style-type: none;
+}
+.jr-school {
+    position: relative;
+    text-align: center;
+    width: 485px;
+    height: 110px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 1px;
+    border: 7px solid #e8e7e7;
+    border-image: url(../img/bg_diagonal01_black01.png) 7 round;
+    background-color: #ffffff;
+  }
+.jr-school a {
+    text-decoration: none;
+    color:#000;
+}
+.jr-school:hover {
+    opacity: 0.5;
+}
+  .jr-school::after {
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    top: 40px;
+    right: 10px;
+    background: url(../img/icon_arrow01_right_black01.png) no-repeat;
+  }
+  .jr-school img {
+    display: block;
+    margin: 13px auto;
+    width: 135px;
+    height: 37px;
+  }
