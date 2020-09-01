@@ -1133,7 +1133,7 @@
 /*---------------------*/
 .contents-14 {
     width: 100%;
-    height: 1500px;
+    height: 1020px;
     background-color: #f7f7f7;
 }
 
@@ -1193,6 +1193,10 @@
     font-weight: bold;
     font-size: 15px;
 }
+.list span {
+    color: #000066;
+    font-size: 11px;
+}
 .list-tag ,.list-tag2 {
     border-top: 1px solid #000;
     padding-top: 15px;
@@ -1200,4 +1204,101 @@
 }
 .list-tag2 a {
     color: #000;
+}
+/*------------------------*/
+.footer-small-list {
+    width: 100%;
+    margin-top: 70px;
+}
+.footer-small-menu {
+    float:left;
+    width: 400px;
+    margin-left: 210px;
+}
+.footer-small-menu ul {
+    display: flex;
+}
+.footer-small-menu li {
+    list-style-type: none;
+    margin-right: 10px;
+}
+.footer-small-menu a {
+    text-decoration: none;
+    color: #000;
+}
+.footer-small-menu a:hover {
+    text-decoration: underline;
+}
+.footer-small-menu1 {
+    float: right;
+    margin-right: 210px;
+    width: 500px;
+}
+.footer-small-menu1 a {
+    display: block;
+    height: 40px;
+    font-size: 12px;
+    text-decoration: none;
+    color: #000;
+    position: relative;
+}
+.footer-small-menu1 ul {
+    display: flex;
+}
+.footer-small-menu1 li {
+    list-style-type: none;
+    width: 33%;
+    border-right: 1px solid #000;
+    margin-left: 5px;
+}
+.footer-small-menu1 li:last-child {
+    border-right: none;
+}
+.footer-small-menu1 a::after {
+    position: absolute;
+    content: ">";
+    right: 6px;
+    top: 10px;
+    color: #000;
+}
+.footer-small-menu1 a:hover {
+    opacity: 0.7;
+    background-color: #808080;
+}
+.footer-small-menu1 p {
+    display: inline-block;
+    vertical-align: middle;
+}
+.footer-small-menu1 img {
+    display: inline-block;
+    margin-right: 8px;
+    width: 28px;
+    height: 28px;
+    vertical-align: middle;
+}
+/*----------------------*/
+.last-footer {
+    width: 100%;
+    height: 50px;
+    background-color: #000;
+}
+.last-footer-list,.last-footer-list1 {
+    padding-top: 13px;
+}
+.last-footer-list a {
+    text-decoration: none;
+    color: #808080;
+    font-size: 12px;
+}
+.last-footer-list1 {
+    color: #808080;
+    font-size: 12px;
+}
+.last-footer-list {
+    float: left;
+    margin-left: 210px;
+}
+.last-footer-list1 {
+    float: right;
+    margin-right: 210px;
 }
