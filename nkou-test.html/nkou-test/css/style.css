@@ -38,6 +38,8 @@
 
 .top-header-side-menu {
     margin-right: 230px;
+    position: relative;
+    z-index: 300;
 }
 
 .top-header-side-menu li {
@@ -132,13 +134,18 @@
 /*------------------*/
 .hide-header {
     display: flex;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.8);
     position: fixed;
-    display: none;
+    top: 0;
+    z-index: 100;
+    height: 65px;
 }
 
 .hide-header-logo {
     margin-left: 198px;
     margin-right: 200px;
+    padding-top: 10px;
 }
 
 .hide-header-logo img {
@@ -148,6 +155,7 @@
 
 .hide-header-tel {
     margin-right: 300px;
+    padding-top: 10px;
 }
 
 .hide-link-icon {
@@ -157,7 +165,18 @@
 
 .hide-link-icon a {
     text-decoration: none;
+    display: block;
+    text-decoration: none;
     color: #000066;
+    border: 1px solid #000066;
+    background: url(../img/icon_arrow01_right_black01.png) 93% 50% no-repeat;
+    background-size: 5px 10px;
+    width: 145px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 .hide-link-icon a:hover {
@@ -173,8 +192,8 @@
 }
 
 .hide-link-icon img {
-    width: 150px;
-    height: 25px;
+    width: 180px;
+    height: 23px;
     padding-top: 10px;
 }
 
@@ -182,50 +201,12 @@
     padding-top: 10px;
 }
 
-.hide-link-icon li:nth-child(3) {
-    border: 1px solid #000066;
-    width: 145px;
-    height: 30px;
-    text-align: center;
-    padding-top: 10px;
-    font-size: 15px;
-    font-weight: bold;
-}
-
-.hide-link-icon li a:nth-child(3) {
-    display: block;
-    padding: 9px 10px 8px;
-    background: url(../img/icon_arrow01_right_black01.png) 94% 50% no-repeat;
-    background-size: 5px 9px;
-}
-
-.hide-link-icon li:nth-child(3):hover {
+.hide-link-icon a:hover {
+    background: url(../img/icon_arrow01_right_white01.png) 93% 50% no-repeat;
+    background-size: 5px 10px;
     color: #ffffff;
     background-color: #000066;
 }
-
-.hide-link-icon li:nth-child(4) {
-    border: 1px solid #000066;
-    width: 145px;
-    height: 30px;
-    text-align: center;
-    padding-top: 10px;
-    font-size: 15px;
-    font-weight: bold;
-}
-
-.hide-link-icon li:nth-child(4)::after {
-    content: ">";
-    color: #000066;
-    float: right;
-    padding-right: 5px;
-}
-
-.hide-link-icon li:nth-child(4):hover {
-    color: #ffffff;
-    background-color: #000066;
-}
-
 /*------------------------------*/
 .third-header {
     display: flex;
@@ -295,24 +276,10 @@
     color: #ffffff;
     background-color: #000066;
 }
-
-/*.third-link-icon li a:nth-child(1)::after {
-    content:">";
-    color: #000066;
-    float: right;
-    padding-right: 5px;
-}*/
 .third-link-icon li a:nth-child(1):hover {
     color: #ffffff;
     background-color: #000066;
 }
-
-/*.third-link-icon li a:nth-child(2)::after {
-    content:">";
-    color: #000066;
-    float: right;
-    padding-right: 5px;
-}*/
 .third-link-icon li a:nth-child(2):hover {
     color: #ffffff;
     background-color: #000066;
@@ -1140,30 +1107,37 @@
 .footer-list {
     display: flex;
     margin-left: 200px;
-    padding-top:50px;
+    padding-top: 50px;
 }
+
 .footer-list-menu ul {
     display: flex;
     list-style-type: none;
 }
+
 .footer-list-menu li::after {
     content: "|";
     margin-left: 10px;
     margin-right: 10px;
-} 
+}
+
 .footer-list-menu li:last-child::after {
     content: none;
 }
+
 .footer-list-menu a {
     text-decoration: none;
     color: #000066;
 }
+
 .footer-list-menu a:hover {
     text-decoration: underline;
 }
+
 .footer-list-img {
     margin-left: 180px;
 }
+
 /*--------------------*/
 .footer-big-list {
     display: flex;
@@ -1173,67 +1147,84 @@
     padding-bottom: 50px;
     border-bottom: 1px solid #000;
 }
+
 .list {
     margin-right: 55px;
     width: 14.5%;
 }
+
 .list li {
     list-style-type: none;
 }
+
 .list a {
     text-decoration: none;
     color: #000;
     font-size: 13px;
 }
+
 .list a:hover {
     text-decoration: underline;
 }
+
 .list p a {
     color: #000066;
     font-weight: bold;
     font-size: 15px;
 }
+
 .list span {
     color: #000066;
     font-size: 11px;
 }
-.list-tag ,.list-tag2 {
+
+.list-tag,
+.list-tag2 {
     border-top: 1px solid #000;
     padding-top: 15px;
     margin-top: 15px;
 }
+
 .list-tag2 a {
     color: #000;
 }
+
 /*------------------------*/
 .footer-small-list {
     width: 100%;
     margin-top: 70px;
 }
+
 .footer-small-menu {
-    float:left;
+    float: left;
     width: 400px;
     margin-left: 210px;
 }
+
 .footer-small-menu ul {
     display: flex;
 }
+
 .footer-small-menu li {
     list-style-type: none;
     margin-right: 10px;
 }
+
 .footer-small-menu a {
     text-decoration: none;
     color: #000;
 }
+
 .footer-small-menu a:hover {
     text-decoration: underline;
 }
+
 .footer-small-menu1 {
     float: right;
     margin-right: 210px;
     width: 500px;
 }
+
 .footer-small-menu1 a {
     display: block;
     height: 40px;
@@ -1242,18 +1233,22 @@
     color: #000;
     position: relative;
 }
+
 .footer-small-menu1 ul {
     display: flex;
 }
+
 .footer-small-menu1 li {
     list-style-type: none;
     width: 33%;
     border-right: 1px solid #000;
     margin-left: 5px;
 }
+
 .footer-small-menu1 li:last-child {
     border-right: none;
 }
+
 .footer-small-menu1 a::after {
     position: absolute;
     content: ">";
@@ -1261,14 +1256,17 @@
     top: 10px;
     color: #000;
 }
+
 .footer-small-menu1 a:hover {
     opacity: 0.7;
     background-color: #808080;
 }
+
 .footer-small-menu1 p {
     display: inline-block;
     vertical-align: middle;
 }
+
 .footer-small-menu1 img {
     display: inline-block;
     margin-right: 8px;
@@ -1276,28 +1274,35 @@
     height: 28px;
     vertical-align: middle;
 }
+
 /*----------------------*/
 .last-footer {
     width: 100%;
     height: 50px;
     background-color: #000;
 }
-.last-footer-list,.last-footer-list1 {
+
+.last-footer-list,
+.last-footer-list1 {
     padding-top: 13px;
 }
+
 .last-footer-list a {
     text-decoration: none;
     color: #808080;
     font-size: 12px;
 }
+
 .last-footer-list1 {
     color: #808080;
     font-size: 12px;
 }
+
 .last-footer-list {
     float: left;
     margin-left: 210px;
 }
+
 .last-footer-list1 {
     float: right;
     margin-right: 210px;
