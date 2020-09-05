@@ -295,7 +295,7 @@
     height: 0;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-    border-bottom: 10px solid #000066;
+    border-bottom: 10px solid #020021;
 }
 
 .nav {
@@ -893,20 +893,24 @@
     height: 270px;
     background-image: url(../img/footer02_bg01.png);
 }
-
+.nkou-link {
+    width: 580px;
+    margin: auto;
+}
 .nkou-more p {
     text-align: center;
     padding-top: 30px;
     font-size: 25px;
     color: #ffffff;
 }
-
+.info-free {
+    float: left;
+}
 .info-free li {
     width: 260px;
     height: 45px;
     margin-top: 20px;
     margin-bottom: 10px;
-    margin-left: 400px;
     list-style-type: none;
     padding: 8px 0 0 15px;
     background-color: #ffffff;
@@ -946,6 +950,7 @@
     height: 200px;
     padding-top: 30px;
     margin-left: 25px;
+    float: right;
 }
 
 .tel-number img {
