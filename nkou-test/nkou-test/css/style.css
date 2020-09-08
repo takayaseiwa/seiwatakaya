@@ -626,7 +626,7 @@
     font-weight: lighter;
 }
 
-.program-text h2:before {
+.program-text h2::before {
     content: '';
     position: absolute;
     bottom: -5px;
@@ -786,7 +786,7 @@
     font-weight: lighter;
 }
 
-.tool-text h2:before {
+.tool-text h2::before {
     content: '';
     position: absolute;
     bottom: -5px;
