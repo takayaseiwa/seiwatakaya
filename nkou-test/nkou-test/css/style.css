@@ -360,7 +360,7 @@
     font-weight: lighter;
 }
 
-.text-01:before {
+.text-01::before {
     content: '';
     position: absolute;
     bottom: -5px;
@@ -432,7 +432,7 @@
     font-weight: lighter;
 }
 
-.cp_h2-title:before {
+.cp_h2-title::before {
     content: '';
     position: absolute;
     bottom: -15px;
